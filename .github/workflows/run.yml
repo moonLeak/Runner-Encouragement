@@ -29,6 +29,7 @@ jobs:
           STRAVA_CLIENT_ID: ${{ secrets.STRAVA_CLIENT_ID }}
           STRAVA_CLIENT_SECRET: ${{ secrets.STRAVA_CLIENT_SECRET }}
           STRAVA_REFRESH_TOKEN: ${{ secrets.STRAVA_REFRESH_TOKEN }}
+          VOLCANO_AI_API_KEY: ${{ secrets.VOLCANO_AI_API_KEY }}
         run: python strava_mileage.py
 
       - name: Commit and push mileage.json
