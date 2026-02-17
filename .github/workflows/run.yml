@@ -1,13 +1,17 @@
 name: Strava Mileage
 
 on:
-  workflow_dispatch: {}
+  workflow_dispatch:
   schedule:
     - cron: "0 */6 * * *"
 
 jobs:
   run:
     runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
@@ -17,21 +21,20 @@ jobs:
         with:
           python-version: "3.11"
 
-      - name: Install deps
+      - name: Install dependencies
         run: pip install requests
 
-      - name: Run script
-      
-      - name: Commit mileage.json
-        run: |
-          git config --global user.name "github-actions"
-          git config --global user.email "actions@github.com"
-          git add mileage.json
-          git commit -m "update mileage"
-          git push
-          
+      - name: Run mileage script
         env:
           STRAVA_CLIENT_ID: ${{ secrets.STRAVA_CLIENT_ID }}
           STRAVA_CLIENT_SECRET: ${{ secrets.STRAVA_CLIENT_SECRET }}
           STRAVA_REFRESH_TOKEN: ${{ secrets.STRAVA_REFRESH_TOKEN }}
         run: python strava_mileage.py
+
+      - name: Commit and push mileage.json
+        run: |
+          git config --global user.name "github-actions"
+          git config --global user.email "actions@github.com"
+          git add mileage.json || echo "No changes"
+          git commit -m "update mileage.json" || echo "No commit needed"
+          git push
