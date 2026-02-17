@@ -1,5 +1,7 @@
 import os
 import requests
+import json
+
 from datetime import datetime, timezone, timedelta
 
 CLIENT_ID = os.environ["STRAVA_CLIENT_ID"]
@@ -42,3 +44,12 @@ for act in activities:
 
 print(f"本周跑量: {week_m/1000:.2f} km")
 print(f"本月跑量: {month_m/1000:.2f} km")
+
+
+data = {
+    "week_km": round(week_m/1000, 2),
+    "month_km": round(month_m/1000, 2),
+}
+
+with open("mileage.json", "w") as f:
+    json.dump(data, f)
