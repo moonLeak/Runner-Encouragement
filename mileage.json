@@ -1,1 +1,15 @@
-{"week_km": 0.0, "month_km": 18.86}
+{
+  "mode": "travel",
+  "stats_home": {
+    "week_km": 29.2,
+    "month_km": 48.05,
+    "weekly_strength": 2
+  },
+  "stats_travel": {
+    "week_km": 29.2,
+    "month_km": 48.05,
+    "weekly_strength": 2
+  },
+  "cat": "如果瘫沙发就走5分钟，最近三个月整体偏少",
+  "last_update": "2-22 23:54"
+}
