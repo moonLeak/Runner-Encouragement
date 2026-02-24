@@ -1,15 +1,15 @@
 {
   "mode": "travel",
   "stats_home": {
-    "week_km": 0.0,
-    "month_km": 48.05,
+    "week_km": 10.2,
+    "month_km": 58.25,
     "weekly_strength": 0
   },
   "stats_travel": {
-    "week_km": 0.0,
-    "month_km": 48.05,
+    "week_km": 10.2,
+    "month_km": 58.25,
     "weekly_strength": 0
   },
-  "cat": "如果晚饭后想躺就做20分钟力量，最近三个月整体偏少",
-  "last_update": "2-23 19:57"
+  "cat": "如果刷短视频就起身动10分钟，近三月整体有缺口",
+  "last_update": "2-23 23:25"
 }
