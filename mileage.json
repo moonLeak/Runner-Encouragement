@@ -1,15 +1,15 @@
 {
   "mode": "travel",
   "stats_home": {
-    "week_km": 0.0,
-    "month_km": 7.84,
+    "week_km": 9.42,
+    "month_km": 17.26,
     "weekly_strength": 0
   },
   "stats_travel": {
-    "week_km": 0.0,
-    "month_km": 7.84,
+    "week_km": 9.42,
+    "month_km": 17.26,
     "weekly_strength": 0
   },
-  "cat": "如果晚饭后想躺，就跑1公里，最近三月整体有缺口哦",
-  "last_update": "3-18 14:40"
+  "cat": "如果刷完短视频就做十分钟力量，你最近三个月整体有缺口",
+  "last_update": "3-18 21:02"
 }
