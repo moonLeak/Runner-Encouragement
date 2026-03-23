@@ -1,15 +1,15 @@
 {
   "mode": "travel",
   "stats_home": {
-    "week_km": 13.95,
+    "week_km": 0.0,
     "month_km": 21.79,
-    "weekly_strength": 2
+    "weekly_strength": 0
   },
   "stats_travel": {
-    "week_km": 13.95,
+    "week_km": 0.0,
     "month_km": 21.79,
-    "weekly_strength": 2
+    "weekly_strength": 0
   },
-  "cat": "如果刷完短视频就动10分钟，近三月整体偏少别断链",
-  "last_update": "3-22 21:03"
+  "cat": "如果晚饭后想躺就跑1公里，最近三月整体偏少哦",
+  "last_update": "3-23 02:54"
 }
