@@ -1,15 +1,15 @@
 {
   "mode": "travel",
   "stats_home": {
-    "week_km": 0.0,
-    "month_km": 21.79,
+    "week_km": 21.2,
+    "month_km": 42.99,
     "weekly_strength": 0
   },
   "stats_travel": {
-    "week_km": 0.0,
-    "month_km": 21.79,
+    "week_km": 21.2,
+    "month_km": 42.99,
     "weekly_strength": 0
   },
-  "cat": "如果晚饭后想躺就跑1公里，最近三月整体锻炼有缺口",
-  "last_update": "3-27 14:39"
+  "cat": "如果晚饭后想躺就动5分钟，最近整体训练偏少哦",
+  "last_update": "3-27 21:00"
 }
