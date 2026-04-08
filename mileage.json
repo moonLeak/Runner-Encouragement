@@ -3,13 +3,13 @@
   "stats_home": {
     "week_km": 9.01,
     "month_km": 18.16,
-    "weekly_strength": 0
+    "weekly_strength": 1
   },
   "stats_travel": {
     "week_km": 9.01,
     "month_km": 18.16,
-    "weekly_strength": 0
+    "weekly_strength": 1
   },
-  "cat": "如果晚饭后想躺就做10分钟力量，最近三月整体有缺口",
-  "last_update": "4-7 21:09"
+  "cat": "如果晚饭后想躺就走2公里，你最近三个月整体有缺口",
+  "last_update": "4-8 03:03"
 }
