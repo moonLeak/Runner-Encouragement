@@ -1,15 +1,15 @@
 {
   "mode": "travel",
   "stats_home": {
-    "week_km": 23.11,
+    "week_km": 0.0,
     "month_km": 32.26,
-    "weekly_strength": 2
+    "weekly_strength": 0
   },
   "stats_travel": {
-    "week_km": 23.11,
+    "week_km": 0.0,
     "month_km": 32.26,
-    "weekly_strength": 2
+    "weekly_strength": 0
   },
-  "cat": "如果刷完短视频就做10分钟力量，最近三个月整体有缺口哦",
-  "last_update": "4-12 21:15"
+  "cat": "如果刷完短视频就做10分钟力量，最近三月整体偏少哦",
+  "last_update": "4-13 03:30"
 }
